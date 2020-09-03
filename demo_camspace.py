@@ -121,7 +121,7 @@ def main(args):
     vibe_time = time.time()
     vibe_results = {}
     for person_id in tqdm(list(tracking_results.keys())):
-        bboxes = joints2d = None     
+        bboxes = joints2d = None
 
         if args.tracking_method == 'bbox':
             bboxes = tracking_results[person_id]['bbox']
@@ -311,10 +311,6 @@ def main(args):
             if args.sideview:
                 img = np.concatenate([img, side_img], axis=1)
 
-            font = cv2.FONT_HERSHEY_SIMPLEX
-            x = 10 #position of text
-            y = 20 #position of text
-            cv2.putText(img, str(frame_idx), (x,y), font ,0.55,(0,255,0),1)
             cv2.imwrite(os.path.join(output_img_folder, f'{frame_idx:06d}.png'), img)
 
             if args.display:
