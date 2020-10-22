@@ -3,8 +3,6 @@
 echo -----install VIBE ----- -----
 call pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
 call pip install pytube3
-
-call cd VIBE
 call pip install -r requirements.txt
 
 echo ----- downloading VIBE and YOLOv3 models -----
