@@ -1,7 +1,7 @@
 tqdm==4.28.1
 numpy==1.17.5
 scipy==1.4.1
-numba==0.47.0
+numba==0.49.1
 smplx==0.1.13
 gdown==3.6.4
 joblib==0.14.1
@@ -18,4 +18,4 @@ pillow==6.2.1
 opencv-python==4.1.2.30
 git+https://github.com/mattloper/chumpy.git
 git+https://github.com/ericwang0701/yolov3-pytorch.git
-git+https://github.com/mkocabas/multi-person-tracker.git
+git+https://github.com/ericwang0701/multi-person-tracker.git
