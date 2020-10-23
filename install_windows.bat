@@ -3,6 +3,7 @@
 echo -----install VIBE ----- -----
 call pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
 call pip install pytube3
+call pip install gdown
 call conda install -c conda-forge ffmpeg
 call pip install -r requirements.txt
 
