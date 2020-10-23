@@ -10,7 +10,7 @@ echo ----- downloading VIBE and YOLOv3 models -----
 call mkdir data
 call cd data
 
-call gdown "https://drive.google.com/uc?id=1untXhYOLQtpNEy4GTY_0fL_H-k6cTf_r"
+call gdown "https://drive.google.com/uc?id=1Vse7zq3EgcL7C9Ywd_Yp_a_zCDAAE3QT"
 call tar -xf vibe_data.zip
 call del vibe_data.zip
 call gdown "https://drive.google.com/uc?id=1ryhzPas5rNTkx9lvF_GV_w7IoGhgw192"
